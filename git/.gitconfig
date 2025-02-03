@@ -1,0 +1,14 @@
+[user]
+	signingkey = CED6D163A115F2EE
+	email = hello@tedem.dev
+	name = Medet Erdal
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[core]
+	editor = code --wait
