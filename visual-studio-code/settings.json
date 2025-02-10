@@ -1,101 +1,88 @@
 {
-    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 32,
-    "editor.fontWeight": "bold",
-    "editor.colorDecorators": false,
-    "editor.minimap.enabled": true,
-    "editor.minimap.renderCharacters": false,
-    "editor.matchBrackets": "never",
-    "editor.renderWhitespace": "selection",
-    "editor.renderControlCharacters": true,
-    "editor.renderLineHighlight": "line",
-    "editor.guides.bracketPairs": false,
-    "editor.guides.indentation": true,
-    "explorer.decorations.badges": false,
-    "editor.rulers": [
-      80,
-      100
-    ],
-    "editor.wordWrap": "on",
-    "editor.suggestSelection": "first",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "editor.suggest.preview": true,
-    "editor.autoClosingBrackets": "always",
-    "editor.cursorBlinking": "solid",
-    "editor.linkedEditing": true,
-    "editor.quickSuggestions": {
-      "strings": true
-    },
-    "editor.unicodeHighlight.allowedCharacters": {
-      "‐": true
-    },
-    "breadcrumbs.enabled": false,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "explorer.openEditors.visible": 0,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.autoReveal": false,
-    "workbench.layoutControl.enabled": false,
-    "workbench.fontAliasing": "antialiased",
-    "workbench.tree.renderIndentGuides": "none",
-    "[markdown]": {
-      "editor.wordWrap": "bounded"
-    },
-    "css.validate": false,
-    "php.suggest.basic": false,
-    "php.validate.enable": true,
-    "php.validate.executablePath": "/opt/homebrew/opt/php/bin/php",
-    "files.associations": {
-      // "*.blade.php": "html",
-      "*.liquid": "html"
-    },
-    "blade.format.enable": true,
-    "bladeFormatter.format.wrapLineLength": 120,
-    "[blade]": {
-      "editor.defaultFormatter": "shufo.vscode-blade-formatter",
-    },
-    "emmet.showSuggestionsAsSnippets": true,
-    "emmet.showExpandedAbbreviation": "always",
-    "emmet.triggerExpansionOnTab": true,
-    "terminal.integrated.fontSize": 13,
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "bladeFormatter.misc.dontShowNewVersionMessage": true,
-    "emmet.includeLanguages": {
-      "blade": "html"
-    },
-    "css.completion.completePropertyWithSemicolon": false,
-    "bladeFormatter.format.noMultipleEmptyLines": true,
-    "bladeFormatter.format.noPhpSyntaxCheck": true,
-    "bladeFormatter.format.sortHtmlAttributes": "idiomatic",
-    "tailwindCSS.includeLanguages": {
-      "plaintext": "html"
-    },
-    "tailwindCSS.emmetCompletions": true,
-    "window.commandCenter": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "[php]": {
-      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    },
-    "cssvar.files": [
-      "./node_modules/open-props/open-props.min.css",
-      "assets/styles/variables.css"
-    ],
-    "cssvar.ignore": [],
-    "cssvar.extensions": [
-      "css",
-      "postcss",
-      "jsx",
-      "tsx"
-    ],
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "bladeFormatter.format.sortTailwindcssClasses": true,
-    "window.autoDetectColorScheme": true,
-    "workbench.preferredLightColorTheme": "GitHub Light Default",
-    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "material-icon-theme"
-  }
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 32,
+  "editor.fontWeight": "bold",
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.matchBrackets": "never",
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": true,
+  "editor.renderLineHighlight": "line",
+  "editor.guides.bracketPairs": false,
+  "editor.guides.indentation": true,
+  "explorer.decorations.badges": false,
+  "editor.rulers": [
+    80,
+    100
+  ],
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.suggest.preview": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.cursorBlinking": "solid",
+  "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "‐": true
+  },
+  "breadcrumbs.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "explorer.openEditors.visible": 1,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.tree.renderIndentGuides": "none",
+  "[markdown]": {
+    "editor.wordWrap": "bounded"
+  },
+  "css.validate": false,
+  "php.suggest.basic": false,
+  "php.validate.enable": true,
+  "php.validate.executablePath": "/opt/homebrew/opt/php/bin/php",
+  "files.associations": {
+    "*.liquid": "html",
+    "*.tpl": "html"
+  },
+  "bladeFormatter.format.wrapLineLength": 120,
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.triggerExpansionOnTab": true,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "bladeFormatter.misc.dontShowNewVersionMessage": true,
+  "emmet.includeLanguages": {
+    "blade": "html"
+  },
+  "css.completion.completePropertyWithSemicolon": false,
+  "bladeFormatter.format.noMultipleEmptyLines": true,
+  "bladeFormatter.format.noPhpSyntaxCheck": true,
+  "bladeFormatter.format.sortHtmlAttributes": "idiomatic",
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "window.commandCenter": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "bladeFormatter.format.sortTailwindcssClasses": true,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "github.copilot.nextEditSuggestions.enabled": true
+}
